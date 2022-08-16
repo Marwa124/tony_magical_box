@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <input type="number" placeholder="Number of operations" value="" id="operations_count">
+    <br><br>
+    <input type="number" value="" placeholder="Entered bill" id="entered_bill">
+    <button id="add" disabled>Add</button>
+    <br><br>
+    <input type="number" value="" placeholder="Expelled bill" id="expelled_bill">
+    <button id="retrieve" disabled>Retrieve</button>
+    <br><br>
+
+    <button id="new_operation">New Operation</button>
+    <button id="print_result">Print result</button>
+    <!-- <button id="retrieve_bills">Retrieve</button> -->
+    <p class="error-message" hidden style="color: red;">Invalid Operation</p>
+    <p class="error-unique" hidden style="color: red;">Duplicated Bill</p>
+    
+    <script src="index.js"></script>
+</body>
+</html>
